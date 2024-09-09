@@ -1,6 +1,8 @@
 import pygame
 from constants import *
 
+
+
 def game_start():
 	print("Starting asteroids!")
 	print(f"Screen width: {SCREEN_WIDTH}")
@@ -9,8 +11,6 @@ def game_start():
 
 def main():
 	game_start()
-
-
 
 
 
