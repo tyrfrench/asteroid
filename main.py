@@ -32,10 +32,8 @@ def main():
 				return
 		screen.fill(color=(0, 0, 0, 1))
 		player.draw(screen)
+		player.update(dt)
 		pygame.display.flip()
-
-		
-
 		dt = Clock().tick(60) / 1000  # Last action of frame
 
 
