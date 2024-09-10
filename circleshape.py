@@ -18,4 +18,3 @@ class CircleShape(pygame.sprite.Sprite):
 
     def update(self, dt):
         pass
-
